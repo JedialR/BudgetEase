@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <Button
+        android:id="@+id/btnAddCategory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add Category"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"/>
+
+    <Button
+        android:id="@+id/btnAddExpense"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add Expense"
+        app:layout_constraintTop_toBottomOf="@id/btnAddCategory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"/>
+
+    <Button
+        android:id="@+id/btnSetGoal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Set Goal"
+        app:layout_constraintTop_toBottomOf="@id/btnAddExpense"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"/>
+
+    <Button
+        android:id="@+id/btnViewExpenses"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="View Expenses"
+        app:layout_constraintTop_toBottomOf="@id/btnSetGoal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"/>
+
+    <Button
+        android:id="@+id/btnViewCategoryTotals"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="View Category Totals"
+        app:layout_constraintTop_toBottomOf="@id/btnViewExpenses"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
