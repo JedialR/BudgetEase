@@ -1,0 +1,42 @@
+Budget Tracker App
+
+Overview
+An Android application named Budget Tracker App functions as a financial management tool for users' ease of use. Through this application users track their expenses while they add categories for spending and define budgets for monthly spending and monitor financial activity throughout selected time intervals. Data persistence in the app is executed through an offline local database which provides uninterrupted user experience even when disconnected from the internet.
+
+
+Features
+User Authentication
+
+Basic login using username and password.
+
+ Categories
+
+Create custom categories for organizing expenses.
+
+ Expense Entry
+
+Add expense entries with:
+
+Date
+
+Amount
+
+Description
+
+Category selection
+
+Optional photograph
+
+Monthly Budget Goals
+
+Set minimum and maximum monthly spending goals. (saves information but does not display yet)
+
+View Expense History
+
+View all expense entries within a user-defined date range.
+
+Access attached photos directly from the entry list.
+
+ Category Totals
+
+View total expenses per category over a user-selectable period
